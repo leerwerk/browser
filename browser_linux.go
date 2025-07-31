@@ -25,11 +25,13 @@ import (
 
 var osDefaultBrowsers = []Browser{
 	{Name: Firefox, Path: `/usr/bin/firefox`},
+	{Name: Firefox, Path: `/snap/bin/firefox`},
 	{Name: Chrome, Path: `/usr/bin/google-chrome`},
 	{Name: Chrome, Path: `/usr/bin/google-chrome-stable`},
 	{Name: Chrome, Path: `/opt/google/chrome/chrome`},
 	{Name: Chromium, Path: `/usr/bin/chromium`},
 	{Name: Chromium, Path: `/usr/bin/chromium-browser`},
+	{Name: Chromium, Path: `/snap/bin/chromium`},
 	{Name: Edge, Path: `/usr/bin/microsoft-edge`},
 	{Name: Edge, Path: `/opt/microsoft/msedge/msedge`},
 }
